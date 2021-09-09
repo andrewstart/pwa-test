@@ -6,6 +6,7 @@ devDependencies:
   '@vitejs/plugin-vue': 1.6.0_@vue+compiler-sfc@3.2.6
   '@vitejs/plugin-vue-jsx': 1.1.7
   '@vue/compiler-sfc': 3.2.6
+  '@vue/runtime-core': 3.2.6
   sass: 1.39.0
   typescript: 4.4.2
   vite: 2.5.2
@@ -497,7 +498,6 @@ packages:
     dependencies:
       '@vue/reactivity': 3.2.6
       '@vue/shared': 3.2.6
-    dev: false
     resolution:
       integrity: sha512-3mqtgpj/YSGFxtvTufSERRApo92B16JNNxz9p+5eG6PPuqTmuRJz214MqhKBEgLEAIQ6R6YCbd83ZDtjQnyw2g==
   /@vue/runtime-dom/3.2.6:
@@ -1548,6 +1548,7 @@ specifiers:
   '@vitejs/plugin-vue': ^1.6.0
   '@vitejs/plugin-vue-jsx': ^1.1.7
   '@vue/compiler-sfc': ^3.2.6
+  '@vue/runtime-core': 3.2.6
   sass: ^1.39.0
   typescript: ^4.3.2
   vite: ^2.5.2

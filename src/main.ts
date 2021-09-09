@@ -4,7 +4,11 @@ import { createStore } from 'vuex';
 import App from './App.vue';
 import HomeView from './views/Home.vue';
 import SecondView from './views/Second.vue';
-import { StoreState } from './vuex';
+
+export interface StoreState
+{
+    count: number
+}
 
 const routes: RouteRecordRaw[] = [
     { path: '/', component: HomeView },

@@ -1,9 +1,5 @@
 import { Store } from 'vuex';
-
-interface StoreState
-{
-    count: number
-}
+import { StoreState } from './main';
 
 declare module '@vue/runtime-core'
 {
