@@ -12,8 +12,9 @@ export default defineComponent({
     {
         const msg = this.msg;
         return <div>
-            <h1>{{ msg }}</h1>
-            <button type="button" onClick={() => this.$router.push('/second')}>Go to other page</button>
+            <h1>{ msg }</h1>
+            <button type="button" onClick={() => this.$router.push('/second')}>Go to counter page</button>
+            <p>Saved counter value: {this.$store.state.count}</p>
         </div>;
     }
 });
@@ -21,18 +22,18 @@ export default defineComponent({
 
 <style scoped lang="scss">
 a {
-  color: #42b983;
+    color: #42b983;
 }
 
 label {
-  margin: 0 0.5em;
-  font-weight: bold;
+    margin: 0 0.5em;
+    font-weight: bold;
 }
 
 code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #304455;
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #304455;
 }
 </style>
