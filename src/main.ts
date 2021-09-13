@@ -5,6 +5,11 @@ import App from './App.vue';
 import HomeView from './views/Home.vue';
 import SecondView from './views/Second.vue';
 
+if ('serviceWorker' in navigator)
+{
+    navigator.serviceWorker.register('./sw.js');
+};
+
 export interface StoreState
 {
     count: number
