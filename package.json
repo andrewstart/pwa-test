@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "build-sw": "workbox generateSW workbox-config.js",
     "serve": "vite preview"
   },
   "dependencies": {
@@ -21,7 +20,8 @@
     "sass": "^1.39.0",
     "typescript": "^4.3.2",
     "vite": "^2.5.2",
+    "vite-plugin-pwa": "^0.11.2",
     "vue-tsc": "^0.2.2",
-    "workbox-cli": "^6.3.0"
+    "workbox-window": "^6.3.0"
   }
 }
