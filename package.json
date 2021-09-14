@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.2.6",
@@ -16,6 +17,7 @@
     "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.2.6",
     "@vue/runtime-core": "3.2.6",
+    "gh-pages": "^3.2.3",
     "pwa-asset-generator": "^4.3.6",
     "sass": "^1.39.0",
     "typescript": "^4.3.2",
