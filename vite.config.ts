@@ -10,7 +10,6 @@ export default defineConfig({
     vueJsx(),
     VitePWA({
       mode: 'development',
-      base: '/',
       includeAssets: ['favicon.ico'],
       workbox: {
         globPatterns: ['**/*.{js,css,html}', 'assets/**/*.{jpg,png,svg}'],

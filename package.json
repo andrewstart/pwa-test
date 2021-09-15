@@ -5,6 +5,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
+    "predeploy": "vue-tsc --noEmit && vite build --base=/pwa=test/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -13,7 +14,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.0",
+    "@vitejs/plugin-vue": "^1.6.2",
     "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.2.6",
     "@vue/runtime-core": "3.2.6",
@@ -21,7 +22,7 @@
     "pwa-asset-generator": "^4.3.6",
     "sass": "^1.39.0",
     "typescript": "^4.3.2",
-    "vite": "^2.5.2",
+    "vite": "^2.5.7",
     "vite-plugin-pwa": "^0.11.2",
     "vue-tsc": "^0.2.2",
     "workbox-window": "^6.3.0"

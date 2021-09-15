@@ -3,7 +3,7 @@ dependencies:
   vue-router: 4.0.11_vue@3.2.6
   vuex: 4.0.2_vue@3.2.6
 devDependencies:
-  '@vitejs/plugin-vue': 1.6.0_@vue+compiler-sfc@3.2.6
+  '@vitejs/plugin-vue': 1.6.2_@vue+compiler-sfc@3.2.6
   '@vitejs/plugin-vue-jsx': 1.1.7
   '@vue/compiler-sfc': 3.2.6
   '@vue/runtime-core': 3.2.6
@@ -11,8 +11,8 @@ devDependencies:
   pwa-asset-generator: 4.3.6
   sass: 1.39.0
   typescript: 4.4.2
-  vite: 2.5.2
-  vite-plugin-pwa: 0.11.2_vite@2.5.2
+  vite: 2.5.7
+  vite-plugin-pwa: 0.11.2_vite@2.5.7
   vue-tsc: 0.2.3_typescript@4.4.2
   workbox-window: 6.3.0
 lockfileVersion: 5.2
@@ -1591,7 +1591,7 @@ packages:
       node: '>=12.0.0'
     resolution:
       integrity: sha512-lomCrTZ/LXUk8L+1fBX4dpW+L/S7qY4+pzS5BRG2NuLpjo26Efh4yb8nDkYM7b8COS3ea7otis0SsqD8vGOSlg==
-  /@vitejs/plugin-vue/1.6.0_@vue+compiler-sfc@3.2.6:
+  /@vitejs/plugin-vue/1.6.2_@vue+compiler-sfc@3.2.6:
     dependencies:
       '@vue/compiler-sfc': 3.2.6
     dev: true
@@ -1600,7 +1600,7 @@ packages:
     peerDependencies:
       '@vue/compiler-sfc': ^3.2.6
     resolution:
-      integrity: sha512-n3i8htn8pTg9M+kM3cnEfsPZx/6ngInlTroth6fA1LQTJq5aTVQ8ggaE5pPoAy9vCgHPtcaXMzwpldhqRAkebQ==
+      integrity: sha512-Pf+dqkT4pWPfziPm51VtDXsPwE74CEGRiK6Vgm5EDBewHw1EgcxG7V2ZI/Yqj5gcDy5nVtjgx0AbsTL+F3gddg==
   /@volar/code-gen/0.27.10:
     dependencies:
       '@volar/shared': 0.27.10
@@ -4123,13 +4123,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==
-  /vite-plugin-pwa/0.11.2_vite@2.5.2:
+  /vite-plugin-pwa/0.11.2_vite@2.5.7:
     dependencies:
       debug: 4.3.2
       fast-glob: 3.2.7
       pretty-bytes: 5.6.0
       rollup: 2.56.3
-      vite: 2.5.2
+      vite: 2.5.7
       workbox-build: 6.3.0
       workbox-window: 6.3.0
     dev: true
@@ -4137,7 +4137,7 @@ packages:
       vite: ^2.0.0
     resolution:
       integrity: sha512-TlsXarwMrt8ccITZaag9yYkBfABn+HfUnZIFDxpX4TwON3F0KSpza72NSqVt8zIjt55+iU1tGonwjxvUAmKYxw==
-  /vite/2.5.2:
+  /vite/2.5.7:
     dependencies:
       esbuild: 0.12.24
       postcss: 8.3.6
@@ -4150,7 +4150,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     resolution:
-      integrity: sha512-JK5uhiVyMqHiAJbgBa8rCvpP8bEhAE9dKDv1gCmP+EUP2FSPmEeW3WXlCXauPB3MDa8behPW+ntyNXqnGaxslg==
+      integrity: sha512-hyUoWmRPhjN1aI+ZSBqDINKdIq7aokHE2ZXiztOg4YlmtpeQtMwMeyxv6X9YxHZmvGzg/js/eATM9Z1nwyakxg==
   /void-elements/3.1.0:
     dev: true
     engines:
@@ -4519,7 +4519,7 @@ packages:
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
-  '@vitejs/plugin-vue': ^1.6.0
+  '@vitejs/plugin-vue': ^1.6.2
   '@vitejs/plugin-vue-jsx': ^1.1.7
   '@vue/compiler-sfc': ^3.2.6
   '@vue/runtime-core': 3.2.6
@@ -4527,7 +4527,7 @@ specifiers:
   pwa-asset-generator: ^4.3.6
   sass: ^1.39.0
   typescript: ^4.3.2
-  vite: ^2.5.2
+  vite: ^2.5.7
   vite-plugin-pwa: ^0.11.2
   vue: ^3.2.6
   vue-router: ^4.0.0

@@ -1,2 +1,1 @@
-* Precache asset files (logo.png)
 * IOS TESTING
